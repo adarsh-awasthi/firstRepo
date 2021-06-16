@@ -31,7 +31,7 @@ print "Password: "
 password = gets.chomp
 authentication = auth_user(username, password, users)
 puts authentication
-puts "Press n to quit or any other key to continue: "
+puts "Press n to quit or any hhhother key to continue: "
 input = gets.chomp.downcase
 break if input == "n"
 attempts += 1
