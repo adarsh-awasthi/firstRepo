@@ -24,7 +24,7 @@ puts "This program will take input from the user and compare password"
 puts "If password is correct, you will get back the user object"
 
 attempts = 1
-while attempts < 4
+while attempts <= 4
 print "Username: "
 username = gets.chomp
 print "Password: "
